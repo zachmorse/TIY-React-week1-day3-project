@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-// import logo from "./logo.svg";
 import "../styles/App.css";
+import EarthquakeInfo from "./EarthquakeInfo";
+import EarthquakeList from "./EarthquakeList";
 
 class App extends Component {
   render() {
@@ -9,6 +10,8 @@ class App extends Component {
         <div className="title">
           <div className="my-header">Earthquakes!</div>
         </div>
+        <EarthquakeInfo />
+        <EarthquakeList />
       </div>
     );
   }
